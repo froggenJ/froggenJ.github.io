@@ -1,0 +1,81 @@
+/*小狗狗高清*/
+textarea{
+  width:500px;
+  height:300px;
+  border-width:0 1px 1px 0;
+  background-position: -100px 0px;
+  background-image: url(https://c1.mifile.cn/f/i/16/chain/micamera/swhite-dog2.jpg); 
+}
+.kyire{
+  background-position: -100px 0px;
+  background-image: url(https://c1.mifile.cn/f/i/16/chain/micamera/swhite-dog1.jpg);
+}
+
+/*小恐龙跑步*/
+.dinos{
+  background-image: url(http://media.gettyimages.com/vectors/animated-cute-dino-game-sprite-vector-id1063466522?s=170667a&w=1007);
+  width: 50px;
+  height:50px;
+  background-position: 0 59px;
+}
+.dinos:hover{
+  background-position: calc(-12 * 50px)  59px;
+  xtransition:background-position 1s;
+}
+
+/*切图 css sprite*/
+.imgOne{
+  background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png?tdsourcetag=s_pctim_aiomsg);
+  width: 51px;
+  height: 51px;
+  background-position: 51px 51px;
+  
+}
+.imgTwo{
+  background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png?tdsourcetag=s_pctim_aiomsg);
+  width: 51px;
+  height: 51px;
+  background-position: 915px 0;
+  
+}
+.imgThree{
+  background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png?tdsourcetag=s_pctim_aiomsg);
+  width: 51px;
+  height: 65px;
+  background-position: 2389px 0;
+  
+}
+
+/*hover变大*/
+
+.bigger ul li{
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0,0,0,0.08);
+  border: 1px solid;
+  list-style:none;
+  xoverflow:hidden;
+  font-size:1px;
+  text-align:justify;
+}
+li div{
+  background-color: tan;
+}
+
+li:nth-child(3n+2){
+  margin-left:56px;
+  margin-top:-52px;
+}
+li:nth-child(3n+3){
+  margin-left:112px;
+  margin-top:-52px;
+}
+
+li:nth-child(4){
+  margin-top:10px;
+}
+
+li div:hover{
+  margin-left:-10px;
+  margin-right:-10px;
+}
