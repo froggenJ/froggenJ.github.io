@@ -6,7 +6,8 @@ textarea{
   background-position: -100px 0px;
   background-image: url(https://c1.mifile.cn/f/i/16/chain/micamera/swhite-dog2.jpg); 
 }
-.kyire{
+.dogg{
+  background-repeat: no-repeat;
   background-position: -100px 0px;
   background-image: url(https://c1.mifile.cn/f/i/16/chain/micamera/swhite-dog1.jpg);
 }
@@ -78,4 +79,49 @@ li:nth-child(4){
 li div:hover{
   margin-left:-10px;
   margin-right:-10px;
+}
+
+/*checkbox和radio :checked*/
+.checked p{
+  display: none;
+}
+
+.checked input:checked + p{
+  
+  display: block;
+}
+
+/*background-attachment: fixed;*/
+.a{
+  background-image: url(https://c.static-nike.com/a/images/t_PDP_144_v1/f_auto/eaq2hhoneliwyfidumz9/kyrie-5-ep-%E7%94%B7%E5%AD%90%E7%AF%AE%E7%90%83%E9%9E%8B-ZnB7SP.jpg);
+}
+.b{
+  background-image: url(https://c.static-nike.com/a/images/t_PDP_144_v1/f_auto/sgnk4zh1kthsw6wgozu2/kyrie-5-ep-%E7%94%B7%E5%AD%90%E7%AF%AE%E7%90%83%E9%9E%8B-ZnB7SP.jpg);
+}
+.c{
+  background-image: url(https://c.static-nike.com/a/images/t_PDP_144_v1/f_auto/kqg6ch7hcnsz4vfl384l/kyrie-5-ep-%E7%94%B7%E5%AD%90%E7%AF%AE%E7%90%83%E9%9E%8B-ZnB7SP.jpg);
+}
+
+.shoes div{
+  height: 500px;
+  border:2px solid;
+  background-attachment: fixed;
+}
+
+/*-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;*/
+.TextImg{
+  background-image: url(https://c1.mifile.cn/f/i/16/chain/micamera/swhite-dog2.jpg);
+  width: 600px;
+  height: 300px;
+  border:5px dotted;
+  object-fit:cover;
+  background-repeat:no-repeat;
+  background-size:cover ;
+  background-position: -200px 80px;
+  background-attachment: fixed;
+  overflow:scroll;
+  -webkit-background-clip: text;
+  color:rgba(0,0,0,0.08)
 }
